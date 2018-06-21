@@ -8,4 +8,18 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/bg_button_code_normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+  <!--  <style name="MyTabLayoutTextAppearanceInverse" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+    <item name="android:textSize">15sp</item>
+    </style>-->
+
+
 </resources>

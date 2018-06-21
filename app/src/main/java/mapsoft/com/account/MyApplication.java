@@ -3,6 +3,8 @@ package mapsoft.com.account;
 import android.app.Application;
 import android.content.Context;
 
+import org.litepal.LitePalApplication;
+
 import me.yokeyword.fragmentation.Fragmentation;
 import me.yokeyword.fragmentation.helper.ExceptionHandler;
 
@@ -11,7 +13,7 @@ import me.yokeyword.fragmentation.helper.ExceptionHandler;
  * @function
  */
 
-public class MyApplication extends Application{
+public class MyApplication extends LitePalApplication{
 
     public static MyApplication application;
     private static Context context;

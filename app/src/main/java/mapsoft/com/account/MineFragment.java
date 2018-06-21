@@ -17,7 +17,7 @@ public class MineFragment extends SupportFragment {
 
     private static MineFragment mFragment;
 
-    private static Object ojb = new Object();
+    private static final Object ojb = new Object();
 
     @Nullable
     @Override
@@ -36,5 +36,9 @@ public class MineFragment extends SupportFragment {
             }
         }
         return mFragment;
+    }
+    @Override
+    public void onHiddenChanged(boolean hidden) {
+        super.onHiddenChanged(hidden);
     }
 }

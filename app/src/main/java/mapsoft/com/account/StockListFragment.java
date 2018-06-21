@@ -13,32 +13,28 @@ import me.yokeyword.fragmentation.SupportFragment;
  * @function
  */
 
-public class ChartFragment extends SupportFragment{
+public class StockListFragment extends SupportFragment{
 
-    private static ChartFragment mFragment;
+    private static StockListFragment mFragment;
 
-    private static Object ojb = new Object();
+    private static final Object ojb = new Object();
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View pView = inflater.inflate(R.layout.fragment_layout_chart,container,false);
+        View pView = inflater.inflate(R.layout.fragment_layout_saleslist,container,false);
         return pView;
     }
 
-    public static ChartFragment newInstance() {
+    public static StockListFragment newInstance() {
 
         if (mFragment == null) {
             synchronized (ojb) {
                 if (mFragment == null) {
-                    mFragment = new ChartFragment();
+                    mFragment = new StockListFragment();
                 }
             }
         }
         return mFragment;
-    }
-    @Override
-    public void onHiddenChanged(boolean hidden) {
-        super.onHiddenChanged(hidden);
     }
 }

@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#489ed8</color>
+    <color name="colorPrimaryDark">#489ed8</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="floating_button_blue">#40c4ff</color>
+    <color name="floating_button_blue_pressed">#5bccff</color>
+    <color name="light_blue_accent_200">#40c4ff</color>
+    <color name="orange_accent_200">#FFAB40</color>
+    <color name="green_accent_400">#00E676</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="orange_500">#FF9800</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="lime_500">#CDDC39</color>
+    <color name="deep_purple_400">#7E57C2</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="gray">#646464</color>
+
+    <color name="buttondown">#ff6501</color>
 </resources>
